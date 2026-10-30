@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent body from scrolling */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.column {
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#categories-column {
+    flex: 1;
+    background-color: #f9f9f9;
+}
+
+#articles-column {
+    flex: 2;
+    background-color: #fff;
+}
+
+#content-column {
+    flex: 3;
+    background-color: #fff;
+    border-right: none;
+}
+
+h2 {
+    position: sticky;
+    top: 0;
+    background: inherit;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+li:hover {
+    background-color: #eee;
+}
+
+li.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.loading, .error {
+    font-style: italic;
+    color: #666;
+    cursor: default !important;
+}
+
+.error {
+    color: red;
+}
+
+.add-feed-btn {
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px dashed #aaa !important;
+    text-align: center;
+    background-color: #eee !important;
+    color: #333 !important;
+}
+
+.add-feed-btn:hover {
+    background-color: #ddd !important;
+}
+
+#article-content {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.full-article-body {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: #333;
+}
+
+.full-article-body p {
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+}
+
+.full-article-body h1, 
+.full-article-body h2, 
+.full-article-body h3 {
+    color: #000;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.full-article-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+.full-article-body a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.full-article-body a:hover {
+    text-decoration: underline;
+}
+
+.full-article-body ul, 
+.full-article-body ol {
+    margin-bottom: 1.5em;
+    padding-left: 20px;
+}
+
+#article-content h1 {
+    margin-top: 0;
+}

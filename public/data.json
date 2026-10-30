@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "id": "tech",
+      "name": "Technology",
+      "type": "internal"
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "type": "internal"
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "type": "internal"
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "type": "internal"
+    },
+    {
+      "id": "culture",
+      "name": "Culture",
+      "type": "internal",
+      "feeds": [
+        "https://ithacavoice.org/feed"
+      ]
+    },
+    {
+      "id": "bbc-news",
+      "name": "BBC News (RSS)",
+      "type": "rss",
+      "url": "http://feeds.bbci.co.uk/news/rss.xml"
+    },
+    {
+      "id": "nasa",
+      "name": "NASA Breaking News (RSS)",
+      "type": "rss",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+    },
+    {
+      "id": "ithaca-voice",
+      "name": "Ithaca Voice (RSS)",
+      "type": "rss",
+      "url": "https://ithacavoice.org/feed"
+    },
+    {
+      "id": "607-news-now",
+      "name": "607 News Now (RSS)",
+      "type": "rss",
+      "url": "https://607newsnow.com/news/feed"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "categoryId": "tech",
+      "title": "The Rise of AI",
+      "content": "Artificial Intelligence is transforming the world. From LLMs to autonomous vehicles, the pace of innovation is breathtaking. AI is not just about automation but augmenting human capability. In the coming years, we expect to see even more integration of AI into daily life, changing how we work, learn, and interact."
+    },
+    {
+      "id": 2,
+      "categoryId": "tech",
+      "title": "Quantum Computing",
+      "content": "Quantum computing leverages the principles of quantum mechanics to perform calculations that are impossible for classical computers. Qubits allow for superposition and entanglement, enabling exponential speedups for specific problems like prime factorization and molecular simulation."
+    },
+    {
+      "id": 3,
+      "categoryId": "science",
+      "title": "Mars Exploration",
+      "content": "Mars has always fascinated humanity. With the Perseverance rover and upcoming missions, we are closer than ever to finding signs of ancient life. The challenges of radiation and low gravity remain, but the goal of human colonization is a recurring dream for space agencies."
+    },
+    {
+      "id": 4,
+      "categoryId": "science",
+      "title": "Black Holes",
+      "content": "Black holes are regions of spacetime where gravity is so strong that nothing, not even light, can escape. The event horizon marks the point of no return. Recent images from the Event Horizon Telescope have given us our first direct looks at these cosmic mysteries."
+    },
+    {
+      "id": 5,
+      "categoryId": "health",
+      "title": "The Importance of Sleep",
+      "content": "Sleep is critical for cognitive function and physical health. During sleep, the brain flushes out toxins and consolidates memories. Chronic sleep deprivation is linked to obesity, heart disease, and mental health issues."
+    },
+    {
+      "id": 6,
+      "categoryId": "health",
+      "title": "Nutrition Basics",
+      "content": "A balanced diet provides the necessary nutrients for the body to function optimally. Proteins, fats, and carbohydrates are macronutrients, while vitamins and minerals are micronutrients. Eating whole foods over processed ones is generally recommended."
+    },
+    {
+      "id": 7,
+      "categoryId": "finance",
+      "title": "Investing 101",
+      "content": "Investing is the act of allocating resources, usually money, with the expectation of generating an income or profit. Diversification is key to managing risk. Long-term investing usually beats market timing."
+    },
+    {
+      "id": 8,
+      "categoryId": "finance",
+      "title": "The Future of Cryptocurrency",
+      "content": "Cryptocurrencies use blockchain technology to create decentralized financial systems. While volatile, they offer a new way to think about ownership and transactions without central intermediaries."
+    },
+    {
+      "id": 9,
+      "categoryId": "culture",
+      "title": "Ancient Civilizations",
+      "content": "The study of ancient civilizations like Mesopotamia, Egypt, and the Indus Valley reveals how early humans organized themselves. Their achievements in architecture, writing, and law laid the groundwork for modern society."
+    },
+    {
+      "id": 10,
+      "categoryId": "culture",
+      "title": "The Evolution of Art",
+      "content": "Art has evolved from cave paintings to digital installations. Each era reflects the social and political climate of its time. The Renaissance marked a shift toward realism and humanism."
+    }
+  ]
+}
